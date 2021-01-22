@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import ButtonNav from './ButtonNav.js';
+import CustomForm from './CustomForm.js';
+import DrawerNav from './MaterialDrawer.js';
+import TopBar from './TopBar.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TopBar></TopBar>
+      <div style={{margin: "100px 40px", display: "flex", justifyContent: "space-between"}}>
+          <DrawerNav></DrawerNav>
+
+          <ButtonNav></ButtonNav>
+      </div>
+
+      <CustomForm></CustomForm>
+      
+      
+    </>
   );
 }
 
