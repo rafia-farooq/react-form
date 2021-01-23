@@ -7,7 +7,8 @@ import TopBar from './TopBar.js';
 function App() {
   return (
     <>
-      <TopBar></TopBar>
+          <TopBar></TopBar>
+      
       <div style={{margin: "100px 40px", display: "flex", justifyContent: "space-between"}}>
           <DrawerNav></DrawerNav>
 
