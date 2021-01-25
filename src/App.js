@@ -2,6 +2,8 @@ import ButtonNav from './ButtonNav.js';
 import CustomForm from './CustomForm.js';
 import DrawerNav from './MaterialDrawer.js';
 import TopBar from './TopBar.js';
+import CustomAccordion from './CustomAccordion.js';
+
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       </div>
 
       <CustomForm></CustomForm>
+
+      <CustomAccordion></CustomAccordion>
       
       
     </>
